@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/fluency/48/like.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="qutoe-box">
+    <h2>Quote of the day</h2>
+    <blockquote id="quote" style="font-size: 30px; font-family: 'Playfair Display', serif ;">
+        Loading....</blockquote>
+    <span id="author"> Loading....</span>
+    <div>
+        <button onclick="getquote(api_url)">NEW QUOTE <i class="ri-heart-fill" style="margin-left:4px; font-size: 16px;" ></i></button>
+        <button onclick="tweet()"> <i class="ri-twitter-fill"></i>TWEET </button>
+    </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

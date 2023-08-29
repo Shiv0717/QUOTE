@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300;400;600&family=Open+Sans:wght@300;400&family=Playfair+Display:ital@1&family=Poppins:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background: #bbc6fa;
+}
+.qutoe-box{
+    background: #fff;
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0,0,0,0.15);
+}
+.qutoe-box h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.qutoe-box h2::after
+{
+    content: '';
+    width: 70px;
+    height: 2px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    bottom: -12%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+.quote-box blockquote{
+    min-height: 100px;
+   
+}
+ blockquote::before,blockquote::after{
+    content: '"';
+    font-size: 50px;
+}
+.qutoe-box span{
+    font-family: 'Playfair Display', serif;
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+.qutoe-box span::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    left: -30px;
+    top: 50%;
+}
+.qutoe-box div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.qutoe-box button{
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(23, 124, 229);
+    color:#fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23, 124, 229);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
+ i{
+    font-size: 17px;
+    margin-right: 4px;
+}
+.qutoe-box button:nth-child(2){
+    background: #fff;
+    color: rgb(23, 124, 229);
+}
